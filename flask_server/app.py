@@ -4,13 +4,11 @@ from dotenv import load_dotenv
 import os
 import pymysql
 
-# .env 파일 로드
 load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
-# 환경변수에서 민감 정보 가져오기
 conn = pymysql.connect(
     host=os.getenv("MYSQL_HOST"),
     user=os.getenv("MYSQL_USER"),
