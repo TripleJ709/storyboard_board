@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+flask_server/.env
+
+# macOS
+.DS_Store
+
+# Swift/Xcode
+*.xcuserdata
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+build/
+
